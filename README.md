@@ -318,6 +318,45 @@
        ```
   3. **else-if Statement**
      - `else if` statement is used to specify a new condition if the first condition is `false`.
+     - Syntax
+       ```java
+       if (condition1) {
+         // block of code to be executed if condition1 is true
+       } else if (condition2) {
+         // block of code to be executed if the condition1 is false and condition2 is true
+       } else {
+         // block of code to be executed if the condition1 is false and condition2 is false
+       }
+     - Example:
+       ```java
+       int time = 22;
+       if (time < 10) {
+         System.out.println("Good morning.");
+       } else if (time < 18) {
+         System.out.println("Good day.");
+       } else {
+         System.out.println("Good evening.");
+       }
+       // Outputs "Good evening."
+       ```
+  4. **nested-if Statement**
+     - A nested if is an if statement that is the target of another if or else. Nested if statements mean an if statement inside an if statement. i.e, we can place an if statement inside another if statement.
+     - Syntax
+     ```java
+     if (condition1)  {    
+     // Executes when condition1 is true    
+     if (condition2)
+     {       
+     // Executes when condition2 is true    
+     }
+     else
+     {
+     // Executes when both condition is false
+     }
+     }
+     ```
+     - Example:
+    
 
 
 
