@@ -271,7 +271,11 @@
 | `>>>`    | Unsigned Right Shift  | Shifts bits to the right (unsigned)  | `x >>> 2`   |
 
 </details>
----
+
+### Statements
+- Decision-making statements in Java execute a block of code based on a condition.
+- A programming language uses control statements to control the flow of execution of a program based on certain conditions. These are used to cause the flow of execution to advance and branch based on changes to the state of a program.
+- **Types of Decision Making Statements in Java (if, if-else, nested-if, if-else-if, switch-case)**
 
 
 
