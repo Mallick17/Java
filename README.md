@@ -90,6 +90,23 @@
     }
     ```
 - Static Variables
+  - Static variables are also known as class variables. These variables are declared similarly to instance variables. The difference is that static variables are declared using the static keyword within a class outside of any method, constructor, or block.
+    ```java
+    import java.io.*;
+
+    class GFG {
+        // Declared static variable
+        public static String geek = "Shubham Jain";
+  
+        public static void main(String[] args)
+        {
+            // Accessing the static variable without object creation
+            System.out.println("Geek Name is : " + GFG.geek);
+
+        
+        }
+    }
+    ```
   
 
 
