@@ -221,6 +221,7 @@
 ---
 <details>
 <summary>Click to expand and see explanations for Java Operators</summary>
+  
 #### **Arithmetic Operators**
 | Operator | Name          | Description                          | Example     |
 |----------|---------------|--------------------------------------|-------------|
