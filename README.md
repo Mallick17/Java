@@ -233,14 +233,47 @@
 | `++`     | Increment     | Increases the value of a variable by 1 | `++x`      |
 | `--`     | Decrement     | Decreases the value of a variable by 1 | `--x`      |
 
+#### **Assignment Operators**
+| Operator | Name                  | Description                          | Example     |
+|----------|-----------------------|--------------------------------------|-------------|
+| `=`      | Assignment            | Assigns a value to a variable        | `x = 5`     |
+| `+=`     | Addition Assignment   | Adds and assigns a value             | `x += 3`    |
+| `-=`     | Subtraction Assignment| Subtracts and assigns a value        | `x -= 2`    |
+| `*=`     | Multiplication Assignment | Multiplies and assigns a value    | `x *= 4`    |
+| `/=`     | Division Assignment   | Divides and assigns a value          | `x /= 2`    |
+| `%=`     | Modulus Assignment    | Assigns the remainder of a division  | `x %= 3`    |
+
+#### **Comparison Operators**
+| Operator | Name                  | Description                          | Example     |
+|----------|-----------------------|--------------------------------------|-------------|
+| `==`     | Equal to              | Checks if two values are equal       | `x == y`    |
+| `!=`     | Not equal             | Checks if two values are not equal   | `x != y`    |
+| `>`      | Greater than          | Checks if one value is greater than another | `x > y`  |
+| `<`      | Less than             | Checks if one value is less than another    | `x < y`  |
+| `>=`     | Greater than or equal to | Checks if one value is greater than or equal to another | `x >= y` |
+| `<=`     | Less than or equal to | Checks if one value is less than or equal to another    | `x <= y` |
+
+#### **Logical Operators**
+| Operator | Name          | Description                          | Example       |
+|----------|---------------|--------------------------------------|---------------|
+| `&&`     | Logical AND   | Returns true if both conditions are true | `x && y`    |
+| `||`     | Logical OR    | Returns true if at least one condition is true | `x || y` |
+| `!`      | Logical NOT   | Reverses the result of a condition   | `!x`          |
+
+#### **Bitwise Operators**
+| Operator | Name                  | Description                          | Example     |
+|----------|-----------------------|--------------------------------------|-------------|
+| `&`      | Bitwise AND           | Performs AND operation on bits       | `x & y`     |
+| `|`      | Bitwise OR            | Performs OR operation on bits        | `x | y`     |
+| `~`      | Bitwise NOT           | Inverts all the bits                 | `~x`        |
+| `<<`     | Left Shift            | Shifts bits to the left              | `x << 2`    |
+| `>>`     | Right Shift           | Shifts bits to the right             | `x >> 2`    |
+| `>>>`    | Unsigned Right Shift  | Shifts bits to the right (unsigned)  | `x >>> 2`   |
 
 </details>
 ---
 
-  - Assignment Operators
-  - Comparison Operators
-  - Logical Operators
-  - Bitwise Operators
+
 
 
 
