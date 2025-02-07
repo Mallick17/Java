@@ -257,7 +257,7 @@
 | Operator | Name          | Description                          | Example       |
 |----------|---------------|--------------------------------------|---------------|
 | `&&`     | Logical AND   | Returns true if both conditions are true | `x && y`    |
-| ||     | Logical OR    | Returns true if at least one condition is true | x || y |
+| `||`    | Logical OR    | Returns true if at least one condition is true | `x || y` |
 | `!`      | Logical NOT   | Reverses the result of a condition   | `!x`          |
 
 #### **Bitwise Operators**
