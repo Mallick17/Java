@@ -213,7 +213,14 @@
 ### Java Operators
 - Java operators are special symbols that perform operations on variables or values. They can be classified into several categories based on their functionality.
 - Java divides the operators into the following groups:
+  - Arithmetic Operators
+  - Assignment Operators
+  - Comparison Operators
+  - Logical Operators
+  - Bitwise Operators
 ---
+<details>
+<summary>Click to expand and see explanations for Java Operators</summary>
 #### **Arithmetic Operators**
 | Operator | Name          | Description                          | Example     |
 |----------|---------------|--------------------------------------|-------------|
@@ -225,6 +232,8 @@
 | `++`     | Increment     | Increases the value of a variable by 1 | `++x`      |
 | `--`     | Decrement     | Decreases the value of a variable by 1 | `--x`      |
 
+
+</details>
 ---
 
   - Assignment Operators
