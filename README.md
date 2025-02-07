@@ -99,7 +99,11 @@
         }
     }
     ```
+### Java Keywords
+- Keywords are the Reserved words in a programming language that are used for some internal process or represent some predefined actions. These words are therefore not allowed to use as variable names or objects.
+  ![java-keywords](https://github.com/user-attachments/assets/0f0d4a02-a444-49cb-96b9-0109255c05b7)
   
+
 
 
 
