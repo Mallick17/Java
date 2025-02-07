@@ -57,36 +57,28 @@
 - Instance Variables
   - Instance variables are non-static variables and are declared in a class outside of any method, constructor, or block.
     ```java
-    // Java Program to show the use of
+    class GFG
+    {
     // Instance Variables
-    import java.io.*;
+    public String name;
+    public int age;
 
-    class GFG {
+    // Constructor to initialize instance variables
+    public GFG()
+    {
+        this.name = "John Doe";
+        this.age = 25;
+    }
 
-        // Declared Instance Variable
-        public String geek;
-        public int i;
-        public Integer I;
-        public GFG()
-        {
-        // Default Constructor
-        // initializing Instance Variable
-        this.geek = "Shubham Jain";
-        }
+    public static void main(String[] args)
+    {
+        // Create an object
+        GFG obj = new GFG();
 
-        // Main Method
-        public static void main(String[] args)
-        {
-            // Object Creation
-            GFG name = new GFG();
-
-            // Displaying O/P
-            System.out.println("Geek name is: " + name.geek);
-            System.out.println("Default value for int is "+ name.i);
-      
-            // toString() called internally
-            System.out.println("Default value for Integer is "+ name.I);
-        }
+        // Access instance variables
+        System.out.println("Name: " + obj.name);
+        System.out.println("Age: " + obj.age);
+    }
     }
     ```
 - Static Variables
