@@ -278,9 +278,46 @@
 - **Types of Decision Making Statements in Java**
   - if, 
   - if-else, 
-  - nested-if, 
-  - if-else-if,
-  - switch-case
+  - else-if, 
+  - nested-if-else
+1. **if statement**
+   - `if` statement is used to specify a block of Java code to be executed if a condition is `true`.
+   - Syntax
+     ```java
+     if (condition) {
+        // block of code to be executed if the condition is true
+     }
+     ```
+   - Example:
+     ```java
+     int x = 20;
+     int y = 18;
+     if (x > y) {
+       System.out.println("x is greater than y");
+     }
+     ```
+  2. **if-else statement**
+     - `else` statement is used to specify a block of code to be executed if the condition is `false`.
+     - Syntax
+       ```java
+       if (condition) {
+         // block of code to be executed if the condition is true
+       } else {
+         // block of code to be executed if the condition is false
+       }
+       ```
+     - Example
+       ```java
+       int time = 20;
+       if (time < 18) {
+         System.out.println("Good day.");
+       } else {
+         System.out.println("Good evening.");
+       }
+       // Outputs "Good evening."
+       ```
+  3. **else-if Statement**
+     - `else if` statement is used to specify a new condition if the first condition is `false`.
 
 
 
