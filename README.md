@@ -369,7 +369,21 @@
        System.out.println("You are too young to enter.");
        }
        ```
-
+### Java Strings
+A string is an object that stores a sequence of characters in double quotes, using UTF-16 encoding (16 bits per character). It behaves like a character array. Java offers a powerful API for string operations like concatenation, comparison, and manipulation.
+- Example:
+```java
+// Java Program to demonstrate String
+public class Geeks {
+    // Main Function
+    public static void main(String args[])
+    {
+        // creating Java string using new keyword
+        String str = new String("The one and only Gyanaaraaanjaan Mallick");
+        System.out.println(str);
+    }
+}
+```
 
 
 
