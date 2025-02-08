@@ -394,7 +394,48 @@ public class Geeks {
     - ```String s = new String(“Welcome”);```
     - In such a case, JVM will create a new string object in normal (non-pool) heap memory and the literal “Welcome” will be placed in the string constant pool. The variable s will refer to the object in the heap (non-pool).
 
+### Arrays in Java
+- Arrays are fundamental structures in Java that allow us to store multiple values of the same type in a single variable. They are useful for storing and managing collections of data.
+-  Arrays in Java are objects.
+-  Example:
+```java
+public class Main {
+    public static void main(String[] args)
+    {
+        // initializing array
+        int[] arr = { 1, 2, 3, 4, 5 };
+        // size of array
+        int n = arr.length;
+        // traversing array
+        for (int i = 0; i < n; i++)
+            System.out.print(arr[i] + " ");
+    }
+}
+// output: 1 2 3 4 5
+```
+### Stream In Java
+Stream API is used to process collections of objects. A stream in Java is a sequence of objects that supports various methods that can be pipelined to produce the desired result. 
+- Stream API is a way to express and process collections of objects.
+- Enable us to perform operations like filtering, mapping, reducing, and sorting.
+- Syntax
+```java
+Stream<T> stream;
+```
+- Here `T` is either a class, object, or data type depending upon the declaration.
 
+### Classes and Objects in Java
+- In Java, classes and objects are basic concepts of Object Oriented Programming (OOPs).
+- The class represents a group of objects having similar properties and behavior.
+Here’s a table summarizing the differences between a **Class** and an **Object**:
 
+| **Aspect**               | **Class**                                                                 | **Object**                                                                 |
+|--------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| **Definition**           | A blueprint or template for creating objects.                            | An instance of a class.                                                   |
+| **Memory Allocation**    | No memory is allocated when a class is declared.                         | Memory is allocated when an object is created.                            |
+| **Nature**               | A logical entity.                                                        | A physical entity.                                                        |
+| **Purpose**              | Represents a group of similar objects.                                   | Represents a real-world entity (e.g., book, car, etc.).                   |
+| **Declaration/Creation** | A class is declared once.                                                | Objects can be created multiple times as per requirement.                 |
+| **Example**              | A class can be "Car."                                                    | Objects of the class "Car" can be BMW, Mercedes, Ferrari, etc.            |
 
-
+### Java Classes
+- A class in Java is a set of objects which shares common characteristics and common properties.
