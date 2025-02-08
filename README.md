@@ -384,6 +384,15 @@ public class Geeks {
     }
 }
 ```
+- Ways of Creating a Java String
+  - String Literal
+    - To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).
+    - Example:
+      ```java
+      String demoString = “data-given”; 
+  - Using new Keyword
+    - ```String s = new String(“Welcome”);```
+    - In such a case, JVM will create a new string object in normal (non-pool) heap memory and the literal “Welcome” will be placed in the string constant pool. The variable s will refer to the object in the heap (non-pool).
 
 
 
