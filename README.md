@@ -280,6 +280,7 @@
   - if-else, 
   - else-if, 
   - nested-if-else
+  - Switch-case
 1. **if statement**
    - `if` statement is used to specify a block of Java code to be executed if a condition is `true`.
    - Syntax
@@ -369,6 +370,100 @@
        System.out.println("You are too young to enter.");
        }
        ```
+  5. **Switch Case**
+     - The switch statement is a multiway branch statement. It provides an easy way to dispatch execution to different parts of code based on the value of the expression.
+     - Syntax
+       ```java
+       switch (expression) {
+           case value1:
+                // code to be executed if expression == value1
+                break;
+           case value2:
+                // code to be executed if expression == value2
+                break;
+           // more cases…
+           default:
+               // code to be executed if no cases match
+
+       }
+       ```
+     - Example:
+       ```java
+       // Java program to demonstrates the
+       //  working of switch statements
+       import java.io.*;
+
+       class Geeks {
+           public static void main(String[] args)
+           {
+               int num = 20;
+               switch (num) {
+               case 5:
+                   System.out.println("It is 5");
+                   break;
+               case 10:
+                   System.out.println("It is 10");
+                   break;
+               case 15:
+                   System.out.println("It is 15");
+                   break;
+               case 20:
+                   System.out.println("It is 20");
+                   break;
+               default:
+                   System.out.println("Not present");
+               }
+           }
+       }
+       ```
+6. **jump Statements**
+   - Java supports three jump statements: `break`, `continue` and `return`. These three statements transfer control to another part of the program.
+   - `break` -  Terminates a sequence in a switch statement (discussed above).
+   - `continue`
+     ```java
+     // Java program to demonstrates the use of
+     // continue in an if statement
+     import java.util.*;
+
+     class Geeks {
+     public static void main(String args[])
+     {
+        for (int i = 0; i < 10; i++) {
+          
+            // If the number is even
+            // skip and continue
+            if (i % 2 == 0)
+                continue;
+
+            // If number is odd, print it
+            System.out.print(i + " ");
+        }
+        }
+        }
+     ```
+   - `return` - The return statement is used to explicitly return from a method. i.e, it causes program control to transfer back to the caller of the method.
+     ```java
+     // Java program to demonstrate the use of return
+      import java.util.*;
+
+      public class Geeks {
+      public static void main(String args[])
+      {
+        boolean t = true;
+        System.out.println("Before the return.");
+
+        if (t)
+            return;
+
+        // Compiler will bypass every statement
+        // after return
+        System.out.println("This won't execute.");
+      }
+      }
+     ```
+
+
+
 ### Java Strings
 A string is an object that stores a sequence of characters in double quotes, using UTF-16 encoding (16 bits per character). It behaves like a character array. Java offers a powerful API for string operations like concatenation, comparison, and manipulation.
 - Example:
